@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     if BRAND.include?(brand)
     else 
-      BRANDS <<
+      BRANDS << brand
   end
 
   def cobble
